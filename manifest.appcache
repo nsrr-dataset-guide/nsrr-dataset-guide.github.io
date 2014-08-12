@@ -1,28 +1,29 @@
 CACHE MANIFEST
-# Revision 1407347474380
+# Revision 1407861348466
 
 CACHE:
 index.html
 data_dictionaries/README.html
 data_dictionaries/adding_new_variables.html
-data_dictionaries/create_a_github_repository.html
 data_dictionaries/create_a_new_data_dictionary.html
+data_dictionaries/create_a_github_repository.html
+data_dictionaries/import_an_existing_data_dictionary.html
 data_dictionaries/using_spout.html
+datasets/README.html
 datasets/deidentifying_your_data.html
 datasets/exporting_your_data.html
-datasets/README.html
 datasets/structuring_your_data.html
 documentation/README.html
-data_dictionaries/import_an_existing_data_dictionary.html
+documentation/common_items_to_include.html
+documentation/convert_to_markdown.html
 documentation/create_a_github_repository.html
 documentation/structure_your_documentation.html
-documentation/sync_your_documentation.html
-documentation/convert_to_markdown.html
-prerequisites/about_versioning.html
 prerequisites/README.html
+prerequisites/about_versioning.html
+documentation/sync_your_documentation.html
 releasing_your_data/README.html
-releasing_your_data/creating_images.html
 releasing_your_data/planning_a_release.html
+releasing_your_data/creating_images.html
 releasing_your_data/publishing_to_sleepdataorg.html
 releasing_your_data/running_graphs.html
 verifying_your_data/README.html
