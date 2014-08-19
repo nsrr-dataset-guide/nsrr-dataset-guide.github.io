@@ -22,7 +22,7 @@
     <link rel="next" href="../releasing_your_data/README.html" />
     
     
-    <link rel="prev" href="../verifying_your_data/check_for_outliers.html" />
+    <link rel="prev" href="../verifying_your_data/check_for_implausible_values.html" />
     
 
         
@@ -34,7 +34,7 @@
 
 
         
-    <div class="book" data-github="nsrr-dataset-guide/dataset-creation-guide" data-level="5.3" data-basepath=".." data-revision="1407861348466">
+    <div class="book" data-github="nsrr-dataset-guide/dataset-creation-guide" data-level="5.3" data-basepath=".." data-revision="1408463865894">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
@@ -492,15 +492,15 @@
         </li>
     
         
-        <li class="chapter " data-level="5.2" data-path="verifying_your_data/check_for_outliers.html">
+        <li class="chapter " data-level="5.2" data-path="verifying_your_data/check_for_implausible_values.html">
             
                 
-                    <a href="../verifying_your_data/check_for_outliers.html">
+                    <a href="../verifying_your_data/check_for_implausible_values.html">
                         <i class="fa fa-check"></i>
                         
                             <b>5.2.</b>
                         
-                         Check for Outliers
+                         Checking Implausible Values
                     </a>
                 
             
@@ -676,7 +676,7 @@
     
         <a href="../verifying_your_data/check_your_coverage.html" title="Check Your Coverage" class="chapter done " data-progress="5.1" style="left: 74.07407407407408%;"></a>
     
-        <a href="../verifying_your_data/check_for_outliers.html" title="Check for Outliers" class="chapter done " data-progress="5.2" style="left: 77.77777777777777%;"></a>
+        <a href="../verifying_your_data/check_for_implausible_values.html" title="Checking Implausible Values" class="chapter done " data-progress="5.2" style="left: 77.77777777777777%;"></a>
     
         <a href="../verifying_your_data/track_issues.html" title="Track Issues" class="chapter done " data-progress="5.3" style="left: 81.48148148148148%;"></a>
     
@@ -695,9 +695,17 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_356">
+                    <section class="normal" id="section-gitbook_29">
                     
                         <h1 id="track-issues">Track Issues</h1>
+<p>As issues are identified with the data, it is important to gather feedback from individuals who are familiar with the project and to track how issues evolve. For this reason, the NSRR team have devised two different methods for tracking different kinds of issues.</p>
+<h2 id="github-issue-tracking">GitHub Issue Tracking</h2>
+<p>For data issues that can be easily resolved, members of the NSRR Informatics team utilize GitHub&#39;s <a href="https://help.github.com/articles/about-issues" target="_blank">native issue tracking</a>.</p>
+<p><img src="../assets/images/github_issues.png" alt="github issue tracking"></p>
+<p>GitHub allows for issues to be created, assigned to specific users, labeled (e.g. as a <code>bug</code>, <code>enhancement</code>, or <code>new feature</code>), assigned to a specific version, and commented upon. Issues that are typically resolved in this manner ones such as the presence of missing codes in the dataset or impossible values. These issues are then typically resolved by editing datasets in SAS before they are exported to a CSV format.</p>
+<p>The comments section of issues becomes particularly useful when an issue requires the input of people who actually worked on the project. In <a href="https://github.com/sleepepi/shhs-data-dictionary/issues/67" target="_blank">this issue</a>, it was only through the assistance of someone who was familiar with the reasoning behind variables having different units that the issue was able to be resolved.</p>
+<p><img src="../assests/images/github_issue_comments.png" alt="github issue comments"></p>
+<h2 id="known-issues-list">Known Issues List</h2>
 
                     
                     </section>
@@ -707,7 +715,7 @@
         </div>
 
         
-        <a href="../verifying_your_data/check_for_outliers.html" class="navigation navigation-prev " aria-label="Previous page: Check for Outliers"><i class="fa fa-angle-left"></i></a>
+        <a href="../verifying_your_data/check_for_implausible_values.html" class="navigation navigation-prev " aria-label="Previous page: Checking Implausible Values"><i class="fa fa-angle-left"></i></a>
         
         
         <a href="../releasing_your_data/README.html" class="navigation navigation-next " aria-label="Next page: Releasing Your Data"><i class="fa fa-angle-right"></i></a>
@@ -729,7 +737,7 @@
 
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"fontSettings":{"theme":"night","family":"sans","size":2}};
+    var config = {"fontSettings":{"theme":"white","family":"sans","size":2}};
     gitbook.start(config);
 });
 </script>
